@@ -1,2 +1,4 @@
 # keys
-testing an keylogger
+# ---------------------------------------------
+# HM this is only an test on secured devices
+## the code is in keylogger.py
